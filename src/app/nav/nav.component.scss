@@ -1,0 +1,19 @@
+.navegacao{
+    padding: 1rem; 
+    background-color: #424242;
+    color: #fff;
+    border-bottom: solid 2px #6e6b7a;
+}
+
+.nav-item{
+    border-radius: 20px;
+    background-color: #1b1b1b;
+    margin: 0 0.5rem;
+    padding: 0 1rem;
+}
+
+.nav-item:hover{
+    color: #c4c4c4;
+    background-color: #313131;
+    cursor: pointer;
+}

@@ -5,15 +5,23 @@
     border-bottom: solid 2px #6e6b7a;
 }
 
-.nav-item{
+.nav-item a{
+    text-decoration: none;
     border-radius: 20px;
-    background-color: #1b1b1b;
+    color: #fff;
+    background-color: #1b1b1bda;
     margin: 0 0.5rem;
     padding: 0 1rem;
 }
 
-.nav-item:hover{
+.nav-item:hover a{
     color: #c4c4c4;
     background-color: #313131;
+    cursor: pointer;
+}
+
+.nav-item:active a{
+    color: #a8a8a8;
+    background-color: #242424;
     cursor: pointer;
 }

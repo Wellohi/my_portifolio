@@ -1,4 +1,4 @@
-.apresentacao{
+.mainContainer{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,7 +7,7 @@
 }
 
 .centralizacao{
-    padding: 4rem 1rem 1rem 1rem; 
+    padding: 10rem 1rem 1rem 1rem; 
     width: 50%;
     display: flex;
     justify-content: space-between;
@@ -15,5 +15,70 @@
 
 .foto{
     height: 13rem;
-  
+    box-shadow: -1rem -1rem #3300754f ;
 }
+
+.icones{
+    margin: 1rem 2rem;
+    width: 50px;
+}
+
+.secondaryContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #202142;
+    color: #fff;
+}
+
+.tertiaryContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #302e2e;
+    color: #fff;
+}
+.title{
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem 0 0 0;
+    background: #a7a7a72d ;
+}
+
+.primaryBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: #4746793a;
+    color: #fff;
+}
+
+.secondaryBox{
+    width: 70%;
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius: 20px;
+    background-color: #4746793a;
+    color: #fff;
+}
+
+.cfclogo{
+    width: 10rem;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.estaciologo{
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    width: 13rem;
+}
+

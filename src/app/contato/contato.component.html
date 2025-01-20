@@ -1,1 +1,29 @@
-<p>contato works!</p>
+<div class="mainContainer">
+    <div class="text-center ">
+        <h5 class="title">Contato</h5> 
+    </div>
+
+    <p class="fs-5 p-4 text-center">Você pode utilizar os seguintes meios para que possa entrar em contato comigo:</p>
+
+    <div class="fontesContato">
+        <section class="contact">
+            <mat-icon>email</mat-icon> 
+                <p class="fs-5 p-3" #emailElement>{{ email }}</p>
+            <mat-icon class="botao" (click)="copy(emailElement.innerText)">content_copy</mat-icon>
+        </section>
+
+        <section class="contact">
+            <mat-icon>phone</mat-icon>
+            <p class="fs-5 p-3" #numberElement>{{ number }}</p>
+            <mat-icon class="botao" (click)="copy(numberElement.innerText)">content_copy</mat-icon>
+        </section>
+    </div>
+    <div class="notification fw-bolder" *ngIf="showCopiedMessage">Copiado!</div>
+
+    <div class="secondaryContainer ">
+        <a href="https://www.linkedin.com/in/wellington-sb/"><img class="icones" src="images/linkwhite.png" alt=""></a>
+        <a href="https://github.com/Wellohi"><img class="icones" src="images/gitwhite.png" alt=""></a>
+    </div>
+    
+</div>
+

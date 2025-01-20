@@ -1,10 +1,16 @@
 .navegacao{
     padding: 1rem; 
-    background-color:  #302e2e;
+    background-color:  #302e2e00;
     color: #fff;
     border-bottom: solid 2px #6e6b7a;
     position: fixed;
     width: 100%;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.nav-item{
+    margin: auto 0;
 }
 
 .nav-item a{
@@ -16,14 +22,24 @@
     padding: 0 1rem;
 }
 
-.nav-item:hover a{
+.curriculo:hover a,.nav-item:hover a{
     color: #c4c4c4;
-    background-color: #313131;
+    background-color: #ffffff28;
     cursor: pointer;
 }
 
-.nav-item:active a{
+.curriculo:hover a,.nav-item:active a{
     color: #a8a8a8;
     background-color: #242424;
     cursor: pointer;
+}
+
+.curriculo a{
+    display: flex;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #202142;
+    padding: 0.5rem 0.5rem;
+
 }
